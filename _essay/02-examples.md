@@ -1,77 +1,11 @@
 ---
-title: CB-Essay in the Wild
-order: 20
+title: A precedent
+order: 2
 byline: Various Authors
-part: Overview and Examples
+part: Essay
 ---
 
-
-## Demonstration Sites
-
-We set these sites up as demonstrations of the various themes and effects of the platform. 
-
-### Frankenstein: Extracted Book from Project Gutenberg
-
-{% include feature/image.html objectid="/assets/img/frankenstein.png" alt="A still from the film Frankenstein (1910), showing Charles Stanton Ogle as the monster." link="https://dcnb.github.io/frankenstein/"%}
-
-A digital edition of Mary Shelley's classic novel demoing our Gutenberg Extractor. Features chapter-by-chapter navigation, integrated scholarly apparatus, and historical context from Project Gutenberg.
-
-You can watch me build the Frankenstein site in the video below! (***Make sure to turn on GitHub Pages first before you do this!***)
-
-{% include feature/video.html objectid="https://www.lib.uidaho.edu/collectionbuilder/cb-essay/frankenstein.mp4" caption="I go through a few simple steps to build out this site, after having made a copy of the repository and turing on GH Pages." %}
-
-**View:** [dcnb.github.io/frankenstein](https://dcnb.github.io/frankenstein) 
-
-### The Wreck of the Deutschland: Single-page, sectioned poem with scroll interactions
-
-{% include feature/image.html objectid="/assets/img/wreck.png" alt="Wreck of the Deutschland poem edition preview" link="https://dcnb.github.io/wreck-of-the-deutschland"%}
-
-Gerard Manley Hopkins's poem presented in the **essay theme** with scrolling transitions and visual breaks. Shows how CB-Essay handles poetry and single-page essays with dramatic effect.
-
-**View:** [dcnb.github.io/wreck-of-the-deutschland](https://dcnb.github.io/wreck-of-the-deutschland) 
-
-
-## Digital Humanites Projects
-
-CB-Essay powers a variety of digital humanities projects:
-
-
-### Sedimentation: An Archive of Glen Canyon
-
-{% include feature/image.html objectid="/assets/img/sedimentation.png" alt="Archival photograph from Glen Canyon, from the Sedimentation project" link="https://cdil.lib.uidaho.edu/sedimentation/"%}
-
-A multimedia exploration of Glen Canyon's entangled human and natural histories, traced through the sedimentary archive. Created by Hannah Green as her English M.A. thesis at the University of Idaho, *Sedimentation* interweaves five thematic essay "tributaries" — Atmosphere, Water, Biota, Humans, and Land — with archival photographs of the canyon before it was drowned beneath Lake Powell in 1963. The project also features [**Eddies**](https://cdil.lib.uidaho.edu/sedimentation/eddies/), a choose-your-own-adventure mode that lets readers navigate through interlinked story fragments in any order, building their own nonlinear path through the canyon's histories. 
-
-**View:** [cdil.lib.uidaho.edu/sedimentation](https://cdil.lib.uidaho.edu/sedimentation/)
-
-
-### Fire Lines: The First CB-Essay Project
-
-{% include feature/image.html objectid="/assets/img/fire-lines.png" alt="Fire Lines homepage screenshot" link="https://cdil.lib.uidaho.edu/fire-lines/"%}
-
-The first CB-Essay, this essay uses archival items from the University of Idaho's Special Collections and Archives to interrogate the massive wildfire that occurred in 1910, known as the Big Burn. 
-
-**View:** [cdil.lib.uidaho.edu/fire-lines](https://cdil.lib.uidaho.edu/fire-lines/)
-
-### Tender Spaces: Multimodal, Multilingual 5-Part Essay
-
-{% include feature/image.html objectid="/assets/img/tender_spaces.png" alt="Tender Spaces screenshot" link="https://cdil.lib.uidaho.edu/tender-spaces/"%}
-
-This extensively customized multimodal and multilinqual essay explores artist Gaëtane Buttigieg's life, art, and forced institutionalization in the 1970s through personal narratives and video interviews. This project demonstrates CB-Essay's flexibility for highly designed, custom presentations.
-
-**View:** [cdil.lib.uidaho.edu/tender-spaces](https://cdil.lib.uidaho.edu/tender-spaces/)
-
-
-
-## Next Steps
-
-Ready to get started? The remaining essays walk you through everything:
-
-- **[Get Started](03-get-started.html)** - Set up your first essay in 10 minutes
-- **[Essay Features](04-essay-features.html)** - Learn and copy all available features
-- **[Collection Integration](05-collection-integration.html)** - Blend essays with collection items
-
-Or jump straight to the [documentation]({{ '/docs.html' | relative_url }}) for reference guides.
+We are not the first to cover this ground. In his 1995 book *Reimagining Thoreau*, Milder, just quoted, makes extensive use of Ronald Clapper's 1967 PhD dissertation *The Development of "Walden": A Genetic Text* in an effort to understand various aspects of *Walden* by tracing Thoreau's revisions across the work's seven extant draft versions contained in HM 924, the manuscript of *Walden* at the Hunting Library. Milder writes at length about Thoreau's revisions to "Higher Laws" in particular. He notes that most of the material that would become "Higher Laws" enters *Walden* beginning in the fourth or "D" draft, following the period from 1849 to 1852 in which Thoreau, who had completed his first draft while living at the pond, pulled back from consistently active work on the manuscript. Whereas the germ of "Higher Laws" in Thoreau's "A" draft of 1846–1847 is, in Milder's words, "unequivocally triumphant," the published chapter of 1854, having passed through Thoreau's subsequent drafts, is "tortuous" and even "schizophrenic" in its logic, enacting a "dramatic self-deconstruction." It is only from D forward, Milder shows, that Thoreau pursues the line of thought in "Higher Laws" that centers notions of purity and chastity, betraying an awkward discomfort with his own animal urges—sexual urges in particular, Milder maintains, reading the chapter's emphasis on diet as a metaphor thinly veiled to us, if not to its author. Milder seeks an explanation for these changes in Thoreau's personal struggles of 1852–1853, as documented in the Journal, and in what evidence we have of Thoreau's attitudes towards human sexuality, such as his September, 1852 letter to H.G.O. Blake, published in the Princeton Edition volume *Early Essays and Miscellanies* as "Chastity &amp; Sensuality."
 
 ---
 
