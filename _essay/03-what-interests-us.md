@@ -1,7 +1,6 @@
 ---
 title: What Interests Us
-order: 3
-part: Essay
+order: 30
 ---
 
 Our interest at present is not to assess Milder's reading of Thoreau's motivations, conscious or otherwise, for revising "Higher Laws" but simply to show you where you can find the evidence of revision in the manuscript itself, so that you can reach your own conclusions, at least with respect to where and how Thoreau shaped his material. That said, we do agree with Milder's broad conclusion that the "Higher Laws" material in "A" reads very differently in its original context and its context from "D" forward, and as we take you through this portion of the manuscript, we will explain why.

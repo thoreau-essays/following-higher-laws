@@ -1,7 +1,6 @@
 ---
 title: Collection Integration
 order: 50
-part: Documentation
 ---
 
 CB-Essay's power comes from integrating collection items with your narrative. This essay shows you how to add your first collection item to an essay using a simple aside (margin note).

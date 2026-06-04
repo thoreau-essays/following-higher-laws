@@ -1,7 +1,6 @@
 ---
 title: Introduction
 order: 1
-part: Introduction
 ---
 
 In *Walden*, the chapter "Higher Laws" offers not one vision of health, but two: "The other day I picked up the lower jaw of a hog, with white and sound teeth and tusks," writes Thoreau, "which suggested that there was an animal health and vigor distinct from the spiritual." In humans, it appears, these two kinds of health do not live in peaceful co-existence. "We are conscious of an animal in us, which awakens in proportion as our higher nature slumbers. It is reptile and sensual, and perhaps cannot be wholly expelled; like the worms which, even in life and health, occupy our bodies. Possibly we may withdraw from it, but never change its nature. I fear that it may enjoy a certain health of its own; that we may be well, yet not pure."
