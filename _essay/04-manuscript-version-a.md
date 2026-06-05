@@ -5,7 +5,7 @@ order: 40
 
 Trying to use Universal Viewer via CB-Essay
 
-{% include item/iiif-manifest-universal-viewer.html objectid="hm924v1n194" %}
+{% include feature/iiif-manifest-uv.html objectid="hm924v1n194" %}
 
 --- 
 
