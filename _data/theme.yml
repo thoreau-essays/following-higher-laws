@@ -20,8 +20,8 @@
 #
 image-style: full-image                # full-image, half-image, or no-image
 featured-image: /assets/img/conscious.jpg
-featured-image-credit: "HM 925. The Huntington Library, San Marino, California."
-featured-image-alt-text: "Proof sheets with manuscript corrections of entire printed text of Walden. Corrections in pencil are in Thoreau's hand." # Add alt text for accessibility
+featured-image-credit: "MS page of HM 924, Huntington Library. Photogrammetry scan of boar skull (lower jaw), Julian Malikon on Sketchfab, CC-BY-2.0."
+featured-image-alt-text: "An image of a boar skull superimposed on an image of the Walden manuscript" # Add alt text for accessibility
 # boar jaw license link: https://creativecommons.org/licenses/by/2.0/
 # credit: Boar skull (lower jaw). Photogrammetry scan [of boar skull that my friend found in the woods]
 # creator: [Julian Malikon Sketchfab](https://sketchfab.com/julianmalik)
