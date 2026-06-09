@@ -19,10 +19,12 @@
 # - Collection objectid: demo_001
 #
 image-style: full-image                # full-image, half-image, or no-image
-featured-image: /assets/img/hm_925_1472.jpg
+featured-image: /assets/img/conscious.jpg
 featured-image-credit: "HM 925. The Huntington Library, San Marino, California."
 featured-image-alt-text: "Proof sheets with manuscript corrections of entire printed text of Walden. Corrections in pencil are in Thoreau's hand." # Add alt text for accessibility
-
+# boar jaw license link: https://creativecommons.org/licenses/by/2.0/
+# credit: Boar skull (lower jaw). Photogrammetry scan [of boar skull that my friend found in the woods]
+# creator: [Julian Malikon Sketchfab](https://sketchfab.com/julianmalik)
 
 # NAVIGATION FEATURES
 
