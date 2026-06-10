@@ -57,21 +57,21 @@ title: Following Higher Laws
 # - Leave blank to show tagline instead
 # - You can use HTML to add line breaks or additional attribution:
 #   author: "Author Name<br>Edited by Editor Name<br>Translated by Translator Name"
-author: Paul Schacht<br>Beth Witherell
+author: Paul Schacht and Beth Witherell
 #
 # tagline: A subtitle/tagline that appears beneath the title (optional)
 # - Only displays if "author" field is empty
 # - Use for descriptive subtitle or project tagline
 # - Can also use HTML for multi-line display:
 #   tagline: "A Digital Edition<br>Published 2024"
-tagline: Thoreau's revisions to the "Higher Laws" chapter of <em>Walden</em>
+tagline: Thoreau's revisions to the "Higher Laws" material in <em>Walden</em>
 #
 # METADATA FIELDS (for search engines and social media):
 #
 # description: Longer description for search engines and social sharing (recommended)
 # - Appears in meta tags and search results
 # - Keep around 160 characters max for best display in search results
-description: "Essay about Thoreau's revisions."
+description: 'Revisions to the "Higher Laws" material in <em>Walden</em>, by H. D. Thoreau'
 #
 # keywords: Short list of subjects separated by semicolons, for rich markup metadata
 keywords: digital humanities; multimodal essays; lib-static
@@ -103,8 +103,8 @@ metadata: following-higher-laws-metadata
 #
 organization-name: "Digital Thoreau"
 organization-link: https://digitalthoreau.org
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+# organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
+# organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
 ##########
 # ROBOTS EXCLUDE
