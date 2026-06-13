@@ -31,6 +31,24 @@
     --bs-btn-active-border-color: var(--cb-primary-color);
 }
 
+/* table styling */
+
+thead {
+border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+/* image and table captions */
+
+p.caption {
+padding-top: 10px;
+font-style: italic;
+font-size: .75em;
+}
+
 /* ============================================================
    CB token overrides for upstream _pages.scss components
    _pages.scss is kept unmodified for upstream CB-CSV merges.
