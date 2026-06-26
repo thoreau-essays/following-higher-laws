@@ -1,1 +1,1 @@
-Following Thoreau's revisions to the "Higher Laws" chapter of *Walden*.
+Following Thoreau's revisions to the "Higher Laws" chapter of *Walden*. Forked from WhatTheDickens/following-higher-laws.
