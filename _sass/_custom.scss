@@ -64,6 +64,165 @@ blockquote.ehw {
 }
 
 /* ============================================================
+   CSS for higher laws transcriptions
+   ============================================================ */
+   
+/* panels */
+
+#panelRight {
+	font-size: 90%;
+	background: #fff; 
+	padding: 8px; 
+	border: 1px solid #000;
+	height: 600px;
+	overflow: auto;
+}
+
+#panelRight p {
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+
+#panelRight p.allowwrap {
+	white-space: normal;
+}
+
+.note {
+	font-style: italic;
+	font-size: smaller;
+	color: #000;
+}
+.unclear-pencil {
+	color: gray;
+	font-style: italic;
+	font-size: smaller;
+}               
+.unclear-ink {
+	font-style: italic;
+	font-size: smaller;
+	color: #000;
+}
+.para-break {
+	text-indent: 15px;
+}
+
+ /* Vertical use-mark or deletion line through text */
+
+.vertical-so {
+ 	position: relative;
+ 	display: inline-block;
+}               
+.line-pencil {
+	position: absolute;
+  width: 2px;
+  height: 100%;
+  background: gray;
+  opacity: 50%;
+  top: 0;
+  transform-origin: center;
+  pointer-events: none;
+}
+.line-ink {
+	position: absolute;
+  width: 2px;
+  height: 100%;
+  background: black;
+  top: 0;
+  transform-origin: center;
+  pointer-events: none;
+}
+.line-ink-left, .line-pencil-left {
+  left: 33.33%;
+}
+.line-ink-right, .line-pencil-right {
+  left: 66.66%;
+}        
+.vertical-so.rotated .line-pencil {
+  transform: rotate(-20deg);
+}
+
+/* Thoreau boxes */
+
+.boxed-ink-3s {
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 0px;
+	border-left: 2px solid black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 4px;
+	max-width: 400px;
+}
+.boxed-ink-4s {
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 4px;
+	max-width: 400px;
+}
+.boxed-pencil-3s {
+	border-top: 2px solid #c8c8c8;
+	border-right: 2px solid #c8c8c8;
+	border-bottom: 0px;
+	border-left: 2px solid #c8c8c8;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 4px;
+	max-width: 400px;
+}
+.boxed-pencil-4s {
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 4px;
+	max-width: 400px;
+}
+
+/*wavy line */
+
+.canceled-wavy {
+	position: relative;
+	overflow: hidden;
+}
+.wavy-line {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	transform: translateY(-50%);
+	pointer-events: none;
+} 
+.deletion {
+	text-decoration: line-through;
+}           
+.addition {
+	color: inherit;
+}           
+.pencil {
+	color: gray;
+}           
+.above, .super {
+	vertical-align: super;
+	font-size: smaller;
+}
+.above-higher {
+	vertical-align: 300%;
+	font-size: smaller;
+}             
+.inter {
+	font-size: smaller;
+	line-height: 50%;
+	margin-top:0;
+	margin-bottom:0;
+	padding-top: 0;
+	padding-bottom: 0;
+}              
+.underline {
+	text-decoration: underline;
+}
+.default {
+	color: #000;
+}
+/* ============================================================
    CB token overrides for upstream _pages.scss components
    _pages.scss is kept unmodified for upstream CB-CSV merges.
    ============================================================ */
