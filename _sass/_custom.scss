@@ -55,7 +55,7 @@ blockquote.ehw {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 40px;
   padding-left: 1.2em;
   border-left: 3px solid #696969;
@@ -67,53 +67,118 @@ blockquote.ehw {
    CSS for higher laws transcriptions
    ============================================================ */
    
-/* panels */
+/* place whole transcript in a div that won't wrap */
 
-#panelRight {
-	font-size: 90%;
-	background: #fff; 
-	padding: 8px; 
-	border: 1px solid #000;
-	height: 600px;
-	overflow: auto;
+div.transcript {
+  white-space: nowrap;
+  overflow: scroll;
 }
 
-#panelRight p {
-	margin-bottom: 0px;
-	white-space: nowrap;
+/* allow explanatory notes to wrap */
+
+div.note {
+  white-space: normal;
 }
 
-#panelRight p.allowwrap {
-	white-space: normal;
-}
+/* any note */
 
 .note {
-	font-style: italic;
-	font-size: smaller;
-	color: #000;
+  font-style: italic;
+  font-size: smaller;
+  color: #000;
 }
+
+/* for text in pencil when handShift does not change color, e.g. with 'unclear' */
+   
 .unclear-pencil {
-	color: gray;
-	font-style: italic;
-	font-size: smaller;
-}               
+  color: gray;
+  font-style: italic;
+  font-size: smaller;
+}
+   
 .unclear-ink {
-	font-style: italic;
-	font-size: smaller;
-	color: #000;
+  font-style: italic;
+  font-size: smaller;
+  color: #000;
 }
+
+/* pencil */
+   
+.pencil {
+  color: gray;
+}
+   
+/* added */
+   
+.addition {
+  color: black;
+}
+   
+.add-pencil {
+  color: gray;
+}
+   
+.add-pencil-above {
+  color: gray;
+  vertical-align: super;
+  font-size: smaller;
+  padding-bottom: 1.5em;
+}
+   
+.add-pencil-above-higher {
+  color: gray;
+  vertical-align: super;
+  font-size: smaller;      
+}
+   
+/* deleted */
+   
+.deletion {
+  text-decoration: line-through;
+}
+   
+.del-pencil {
+  text-decoration: line-through;
+  text-decoration-color: gray;
+}
+   
+/* location */
+   
+.above, .super {
+  vertical-align: super;
+  font-size: smaller;
+  padding-bottom: 1.5em;
+}
+   
+.above-higher {
+  vertical-align: super;
+  font-size: smaller;
+}
+   
+.inter {
+  font-size: smaller;
+  line-height: .9em;
+}
+   
+/* decoration, etc. */
+   
+.underline {
+  text-decoration: underline;
+}
+   
 .para-break {
-	text-indent: 15px;
+  text-indent: 15px;
 }
-
- /* Vertical use-mark or deletion line through text */
-
+   
+/* vertical use-mark or deletion line through text */
+   
 .vertical-so {
- 	position: relative;
- 	display: inline-block;
-}               
+  position: relative;
+  display: inline-block;
+}
+   
 .line-pencil {
-	position: absolute;
+  position: absolute;
   width: 2px;
   height: 100%;
   background: gray;
@@ -122,8 +187,9 @@ blockquote.ehw {
   transform-origin: center;
   pointer-events: none;
 }
+   
 .line-ink {
-	position: absolute;
+  position: absolute;
   width: 2px;
   height: 100%;
   background: black;
@@ -131,96 +197,101 @@ blockquote.ehw {
   transform-origin: center;
   pointer-events: none;
 }
+   
 .line-ink-left, .line-pencil-left {
   left: 33.33%;
 }
+   
 .line-ink-right, .line-pencil-right {
   left: 66.66%;
-}        
+}
+   
+.line-ink-center, .line-pencil-center {
+  left: 50%;
+}
+   
 .vertical-so.rotated .line-pencil {
   transform: rotate(-20deg);
 }
-
-/* Thoreau boxes */
-
+   
+.vertical-so.rotated .line-ink {
+  transform: rotate(-20deg);
+}
+   
+/* thoreau boxes */
+   
 .boxed-ink-3s {
-	border-top: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 0px;
-	border-left: 2px solid black;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	padding: 4px;
-	max-width: 400px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0px;
+  border-left: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 4px;
+  max-width: 450px;
 }
+   
 .boxed-ink-4s {
-	border: 2px solid black;
-	border-radius: 8px;
-	padding: 4px;
-	max-width: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4px;
+  max-width: 450px;
 }
+   
 .boxed-pencil-3s {
-	border-top: 2px solid #c8c8c8;
-	border-right: 2px solid #c8c8c8;
-	border-bottom: 0px;
-	border-left: 2px solid #c8c8c8;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	padding: 4px;
-	max-width: 400px;
+  border-top: 2px solid #c8c8c8;
+  border-right: 2px solid #c8c8c8;
+  border-bottom: 0px;
+  border-left: 2px solid #c8c8c8;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 4px;
+  max-width: 450px;
 }
+   
 .boxed-pencil-4s {
-	border: 2px solid gray;
-	border-radius: 8px;
-	padding: 4px;
-	max-width: 400px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  padding: 4px;
+  max-width: 450px;
 }
-
-/*wavy line */
-
+   
+/* wavy line */
+   
 .canceled-wavy {
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
+   
 .wavy-line {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 300px;
-	height: 100%;
-	transform: translateY(-50%);
-	pointer-events: none;
-} 
-.deletion {
-	text-decoration: line-through;
-}           
-.addition {
-	color: inherit;
-}           
-.pencil {
-	color: gray;
-}           
-.above, .super {
-	vertical-align: super;
-	font-size: smaller;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 400px;
+  height: 100%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
-.above-higher {
-	vertical-align: 300%;
-	font-size: smaller;
-}             
-.inter {
-	font-size: smaller;
-	line-height: 50%;
-	margin-top:0;
-	margin-bottom:0;
-	padding-top: 0;
-	padding-bottom: 0;
-}              
-.underline {
-	text-decoration: underline;
+   
+/* columns and rows */
+   
+.thoreau-column {
+  float: left;
+  width: 50%;
 }
-.default {
-	color: #000;
+   
+/* clear floats after the columns */
+   
+.thoreau-row {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+   
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* ============================================================
    CB token overrides for upstream _pages.scss components
