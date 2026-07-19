@@ -260,7 +260,7 @@ div.note {
    
 .canceled-wavy {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
    
 .wavy-line {
@@ -288,7 +288,7 @@ div.note {
   border-bottom: 2px solid black;
 }
    
-.row:after {
+.thoreau-row:after {
   content: "";
   display: table;
   clear: both;
