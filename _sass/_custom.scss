@@ -55,7 +55,7 @@ blockquote.ehw {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 40px;
   padding-left: 1.2em;
   border-left: 3px solid #696969;
@@ -67,6 +67,26 @@ blockquote.ehw {
    CSS for higher laws transcriptions
    ============================================================ */
    
+/* place whole transcript in a div that won't wrap */
+
+div.transcript {
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+/* allow explanatory notes to wrap */
+
+div.note {
+  white-space: normal;
+}
+
+/* any note */
+
+.note {
+  font-style: italic;
+  font-size: smaller;
+  color: #000;
+}
 
 /* for text in pencil when handShift does not change color, e.g. with 'unclear' */
    
@@ -81,12 +101,8 @@ blockquote.ehw {
   font-size: smaller;
   color: #000;
 }
-   
-.note {
-  font-style: italic;
-  font-size: smaller;
-  color: #000;
-}
+
+/* pencil */
    
 .pencil {
   color: gray;
@@ -234,7 +250,7 @@ blockquote.ehw {
 }
    
 .boxed-pencil-4s {
-  border: 1px solid gray;
+  border: 1px solid #c8c8c8;
   border-radius: 8px;
   padding: 4px;
   max-width: 450px;
@@ -259,14 +275,14 @@ blockquote.ehw {
    
 /* columns and rows */
    
-.column {
+.thoreau-column {
   float: left;
   width: 50%;
 }
    
 /* clear floats after the columns */
    
-.row {
+.thoreau-row {
   margin-bottom: 10px;
   padding-bottom: 5px;
   border-bottom: 2px solid black;
